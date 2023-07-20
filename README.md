@@ -1,11 +1,16 @@
 # Finite deformation nudged elastic band method
 
 
-FD-NEB method is reported in the following paper:
+Solid-state nudged elastic band (SSNEB) methods can be used for finding solid-solid transition paths when solids are subjected to external stress fields. However, previous SSNEB methods may lead to inaccurate barriers and deviated reaction paths for transitions under finite/large deformation due to an inaccurate evaluation of the external work contributions in enthalpies. We report Finite deformation NEB method in 
 
 A. Ghasemi, P. Xiao, W. Gao, Nudged elastic band method for solid-solid transition under finite deformation , The Journal of Chemical Physics, 151, 054110, 2019. [https://doi.org/10.1063/1.5113716](https://doi.org/10.1063/1.5113716)
 
 FD-NEB is implemented based on the [Atomic Simulation Environment (ASE)](https://wiki.fysik.dtu.dk/ase/index.html). The code is implemented based on an open source project [Transition State Library for ASE (TSASE)](https://theory.cm.utexas.edu/tsase/).
+
+
+## Usage
+
+
 
 Once you have a local copy of ASE and this code, include the top directory to your $PYTHONPATH.
 ```
