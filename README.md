@@ -10,7 +10,7 @@ FD-NEB is implemented based on the [Atomic Simulation Environment (ASE)](https:/
 Once you have a local copy of ASE and this code, include the top directory to your $PYTHONPATH.
 ```
 export PYTHONPATH=<path to FD-NEB code>/neb:$PYTHONPATH
-export PYTHONPATH=<path to FD-NEB code>/ase:$PYTHONPATH
+export PYTHONPATH=<path to ASE code>/ase:$PYTHONPATH
 ```
 
 Within the 'example' folder, two cases are presented. One employs LAMMPS as the calculator while the other utilizes VASP. Both cases examine the phase transition of silicon from the diamond to the &beta-tin phase.
