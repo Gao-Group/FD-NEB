@@ -5,7 +5,7 @@ Solid-state nudged elastic band (SSNEB) methods can be used for finding solid-so
 
 A. Ghasemi, P. Xiao, W. Gao, Nudged elastic band method for solid-solid transition under finite deformation , The Journal of Chemical Physics, 151, 054110, 2019. [https://doi.org/10.1063/1.5113716](https://doi.org/10.1063/1.5113716)
 
-FD-NEB is implemented based on the [Atomic Simulation Environment (ASE)](https://wiki.fysik.dtu.dk/ase/index.html). The code is implemented based on an open source project [Transition State Library for ASE (TSASE)](https://theory.cm.utexas.edu/tsase/).
+FD-NEB is implemented based on open source project [Atomic Simulation Environment (ASE)](https://wiki.fysik.dtu.dk/ase/index.html) and [Transition State Library for ASE (TSASE)](https://theory.cm.utexas.edu/tsase/).
 
 
 ## Usage
