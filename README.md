@@ -67,7 +67,7 @@ We've included an illustrative script, opt_example.py, to demonstrate the applic
 
 For large or finite deformations, obtaining a more accurate enthalpy barrier requires conducting Nudged Elastic Band (NEB) calculations with Piola-Kirchhoff (PK) stresses, instead of Cauchy stress.  
 
-In FD-NEB code, user can choose 'cauchy', 'PK1' or 'PK2'. For small deformaiton, they should yield very similar resutls. For finite deformaiton, 'PK1' or 'PK2' should be used. There is anohter option in stres type, which is called 'hydro', meaning hydrostatic pressure. 
+In FD-NEB code, user can choose 'cauchy', 'PK1', 'PK2' or 'hydro' (means hydrostatic pressure, a special Cauchy stress). For small deformaiton, 'cauchy', 'PK1' and 'PK2' should yield very similar resutls. For finite deformaiton, 'PK1' or 'PK2' should be used. Under hydrostatic pressure, 'hydro' should be used. 
 
 Since PK stresses may not be familiar to nonexperts in mechanics, we brifely explain the difference in stress definition:  
 
