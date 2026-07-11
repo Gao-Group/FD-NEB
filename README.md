@@ -14,7 +14,7 @@ FD-NEB is implemented based on open source project [Atomic Simulation Environmen
 
 Once you have a local copy of ASE and this code, include the top directory to your $PYTHONPATH.
 ```
-export PYTHONPATH=<path to FD-NEB code>/neb:$PYTHONPATH
+export PYTHONPATH=<path to FD-NEB code>:$PYTHONPATH
 export PYTHONPATH=<path to ASE code>/ase:$PYTHONPATH
 ```
 
