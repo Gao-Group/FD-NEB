@@ -26,7 +26,7 @@ export ASE_LAMMPSRUN_COMMAND="<path to lammps executable>/lmp_serial"
 ```
 or for mpi version LAMMPS
 ```
-export ASE_LAMMPSRUN_COMMAND="mpirun <path to lammps executable>/lmp_mpi"
+export ASE_LAMMPSRUN_COMMAND="mpirun -np 1 <path to lammps executable>/lmp_mpi"
 ```
 
 When using VASP as calculator, write a script called run_vasp.py containing something like this:
