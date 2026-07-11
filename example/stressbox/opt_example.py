@@ -12,7 +12,7 @@ from ase.io import read,write
 import numpy as np
 from ase.calculators.lammpsrun import LAMMPS
 from ase import units
-from ase.stressbox import stressbox
+from neb import stressbox
 import math
 
 parameters = { 'units' : 'metal', 
